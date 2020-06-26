@@ -1,0 +1,64 @@
+/*NAVBAR*/
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px;
+    padding-left: 60px;
+    border-bottom: 1px rgb(182, 182, 182) solid;
+    width: 96%;
+    overflow: hidden;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a, .subbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 16px 22px;
+    margin: 0px 8px;
+    text-decoration: none;
+}
+
+#navbar li a:hover, .submenu:hover .subbtn {
+    background: #dae3fd;
+    color: #000;
+    transition: 0.8s;
+    border-radius: 60px;
+}
+
+#navbar li.submenu {
+    display: inline-block;
+    transition: 0.5s;
+}
+
+#navbar .submenu-konten {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.5s;
+}
+
+#navbar .submenu-konten a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#navbar .submenu-konten a:hover {background-color: #e4eafd}
+
+#navbar .submenu:hover .submenu-konten {
+    display: block;
+}
+#navbar .aktif{
+    background-color: #e7e7e7; 
+    border-radius: 60px;
+}

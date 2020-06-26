@@ -1,0 +1,113 @@
+.form_check{
+	width: 58%;
+    height: auto;
+    float: center;
+    margin-bottom: 30px;
+    margin-top:20px !important;
+    align-items: center;
+    margin: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Judul_Check{
+	text-align: center;
+}
+
+.input{
+	margin-left: 100px;
+}
+
+.Judul_Check h3, 
+.judul_tampilpes h3, 
+.judul_ringkasan h3{
+	margin-left: 300px;
+	text-align: left;
+}
+/*hr{
+	color: black;
+}*/
+label{
+	margin: 2px 85px;
+	text-align: left;
+}
+
+select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 25px;
+    box-sizing: border-box;
+}
+textarea {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 25px;
+    box-sizing: border-box;
+}
+input[type="text"] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 25px;
+    box-sizing: border-box;
+
+}
+
+input[type="date"] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 6px 25px;
+    box-sizing: border-box;
+
+}
+
+.tampil_pesanan{
+	width: 58%;
+    height: auto;
+    float: center;
+    margin-bottom: 200px;
+    align-items: center;
+    margin: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tampil_pesanan p, .tampil_pesanan table{
+	margin-left: 50px;
+}
+.tampil_pesanan img{
+	width: 35%;	
+}
+
+.tampil_pesanan hr{
+	margin-left: 40px;
+}
+
+.ringkasan_pembelian table {
+	margin-left: 50px;
+}
+.ringkasan_pembelian{
+	width: 58%;
+    height: auto;
+    float: center;
+    margin-bottom: 200px;
+    margin-top:20px !important;
+    align-items: center;
+    margin: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+    border: none;
+    outline: none;
+    width: 35%;
+    margin-left: 500px;
+    height: 40px;
+    background: #1c468f;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+  }
+  .btn:hover {
+    cursor: pointer;
+    background: #7ba5ee;
+    color: #000;
+    
+  }

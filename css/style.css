@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: initial;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  textarea {
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 10px;
+    background: transparent;
+    border-bottom-color: #3568bd;
+    outline: none;
+    color: #000;
+    width: 95%;
+    height: 70px;;
+    border-width: thin;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #1c468f;
+    text-align: center;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+  }
+  
+  form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  .loginbox{
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+  }
+  
+  .input-group {
+    margin: 10px 0px 10px 0px;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin: 3px;
+    color: #1c468f;
+  }
+  
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border:  none;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .input-group input[type="radio"] {
+    margin: 20px 0px;
+    border: none;
+    transform: scale(2);
+    height: 10px;
+    width: 25%;
+  }
+  
+  .input-group input[type="submit"]:hover {
+    cursor: pointer;
+    background: #9cbaee;
+    color: #000;
+  }
+   
+  .btn {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    background: #1c468f;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    background: #7ba5ee;
+    color: #000;
+    
+  }
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 5px; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
+  
+  /* SELECT CSS */
+  .styled-select {
+    margin: 2% 0% 3% 0%;
+    height: 29px;
+    overflow: hidden;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .styled-select select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px;
+    width: 268px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .semi-square {
+    width: 20%;
+    height: auto;
+    margin-left: 10%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  .blue { background-color: #3568bd; 
+  }
+  
+  

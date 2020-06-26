@@ -1,0 +1,57 @@
+
+.detail img{
+	border: 1px solid #dee4ed;
+	width: 400px;
+	height: 495px;
+}
+.image{
+	float: left;
+	width:90%;
+}
+/*.image img{
+	opacity:0.8; 
+}
+.image img:hover{
+	opacity: 1;
+}*/
+.detail{
+	margin: 30px 0px 0px 50px;
+	width: 90%;
+	/*display: none;*/
+}
+.detail:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.border{
+	border: 2px solid #adadad;
+	width: 400px;
+	height: 495px;
+	margin: 10px 0px 0px 10px;
+	position: relative;
+}
+
+.container_desc {
+	width: 90%;
+    height: 460px;
+    margin: 0px 0px 0px 95px;
+    align-items: center;
+}
+
+.judul_produk {
+	color: rgb(26, 45, 128);
+}
+
+.harga {
+	color: rgb(0, 0, 0);
+}
+
+.deskripsi {
+	color: rgb(0, 0, 0);
+}
+
+.jml_barang {
+	font-family: 'Montserrat', sans-serif;
+}
